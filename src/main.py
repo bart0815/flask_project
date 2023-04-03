@@ -15,6 +15,6 @@ def hello():
 
 @app.route("/page1")
 def page1():
-    return render_template(str(Path(__file__).parent.parent / "pages/page1.html"))
+    return render_template(str(Path(__file__).parent / "templates/page1.html"))
 
 
